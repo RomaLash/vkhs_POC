@@ -29,7 +29,7 @@
 2. Открываем папку с программой.
 3. Запускаем программу:
 ```
-python core.py -...
+python vkhs.py -...
 ```
 | Аргумент | Описание |
 | ------- | ------ |
@@ -46,23 +46,23 @@ python core.py -...
 
 1. Отправка сообщение без использования конфиг файла: 
 ```
-python core.py -e -l [логин] -aid [xxxxxxxxx] -m Hello World
+python vkhs.py -e -l [логин] -aid [xxxxxxxxx] -m Hello World
 ```
 После запроса вводим пароль.
 
 2. Получение сообщение без использования конфиг файла:
 ```
-python core.py -d -l [логин] -aurl [albumxxxxxxxx_xxxxxxxxx] 
+python vkhs.py -d -l [логин] -aurl [albumxxxxxxxx_xxxxxxxxx] 
 ```
 После запроса вводим пароль.
 
 3. Отправка сообщение с использованием конфиг файла:
 ```
-python core.py -e -set -l [логин] -aid[xxxxxxxxx] -aurl[albumxxxxxxxx_xxxxxxxxx] -m HelloWorld
+python vkhs.py -e -set -l [логин] -aid[xxxxxxxxx] -aurl[albumxxxxxxxx_xxxxxxxxx] -m HelloWorld
 ```
 После запроса вводим пароль. В папке появится файл, хранящий в себе в зашифрованном виде информацию, которая была введена выше.
 
 4. Получение сообщения с использованием конфиг файла:
 ```
-python core.py -d -sto 
+python vkhs.py -d -sto 
 ```
